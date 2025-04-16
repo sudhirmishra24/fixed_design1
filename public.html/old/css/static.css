@@ -1,0 +1,48 @@
+.top-bar {
+    background-color: #fcd18b;
+    font-size: 14px;
+  }
+  .discount-bar {
+    background-color: #004e89;
+    color: white;
+    font-weight: bold;
+  }
+  .discount-bar span {
+    color: orange;
+  }
+  .nav-link.active {
+    color: orange !important;
+  }
+  .header-image img {
+    width: 100%;
+    height: auto;
+  }
+  .search-icon {
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    margin-left: 20px;
+  }
+.search-box {
+    position: absolute;
+    top: 60px; /* adjust to fit your navbar */
+    right: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 6px 10px;
+    border-radius: 4px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  /* Optional: style the input */
+  .search-box input {
+    border: none;
+    outline: none;
+  }
+  
